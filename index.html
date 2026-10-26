@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Anowar Hossain - IT Support Specialist Portfolio</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            dark: '#22252a',
+                            card: '#2d3139',
+                            subcard: '#353a43',
+                            blue: '#00a3e0',
+                            lightBg: '#f4f4f6',
+                            cardBorder: '#e2e8f0',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Fallback avatar generator styling */
+        .avatar-container {
+            position: relative;
+        }
+    </style>
+</head>
+<body class="bg-brand-lightBg text-slate-800 antialiased selection:bg-brand-blue selection:text-white">
+
+    <!-- TOP HEADER & HERO SECTION (DARK THEME) -->
+    <header class="bg-brand-dark text-white pt-6 pb-12 px-4 sm:px-8 lg:px-16 border-b border-gray-800">
+        <div class="max-w-6xl mx-auto">
+            
+            <!-- Navigation -->
+            <nav class="flex flex-wrap justify-between items-center pb-8 border-b border-gray-700/50 mb-10">
+                <a href="#" class="text-2xl font-black tracking-wider text-white hover:text-brand-blue transition">MAH</a>
+                <div class="flex flex-wrap gap-4 sm:gap-8 text-sm font-medium text-gray-300 mt-4 sm:mt-0">
+                    <a href="#about" class="hover:text-brand-blue transition">About</a>
+                    <a href="#experience" class="hover:text-brand-blue transition">Experience</a>
+                    <a href="#skills" class="hover:text-brand-blue transition">Skills</a>
+                    <a href="#education" class="hover:text-brand-blue transition">Education</a>
+                    <a href="#contact" class="hover:text-brand-blue transition">Contact</a>
+                </div>
+            </nav>
+
+            <!-- Hero Section -->
+            <div class="flex flex-col md:flex-row items-center md:items-start gap-8 mb-12">
+                <!-- Profile Image -->
+                <div class="avatar-container flex-shrink-0">
+                    <img src="/pic.jfif" 
+                         alt="Md Anowar Hossain" 
+                         onerror="this.onerror=null; this.src='https://placehold.co/160x160/2d3139/FFFFFF?text=MAH';"
+                         class="w-36 h-36 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-brand-blue shadow-lg">
+                </div>
+
+                <!-- Hero Content -->
+                <div class="flex-1 text-center md:text-left">
+                    <span class="inline-block text-xs font-bold tracking-widest text-brand-blue uppercase mb-2">
+                        IT SUPPORT SPECIALIST
+                    </span>
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-4">
+                        Md Anowar Hossain
+                    </h1>
+                    <p class="text-gray-300 text-sm sm:text-base leading-relaxed max-w-2xl mb-6">
+                        Network administration and technical support professional with over 16 years in banking IT, keeping head-office and branch operations connected and running.
+                    </p>
+
+                    <!-- Contact CTA Buttons -->
+                    <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                        <a href="mailto:anowar.feniusp@gmail.com" 
+                           class="inline-flex items-center gap-2 bg-brand-blue hover:bg-sky-500 text-white text-sm font-semibold px-5 py-2.5 rounded-md transition shadow-md">
+                           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                           Email me
+                        </a>
+                        <a href="tel:+8801845887333" 
+                           class="inline-flex items-center gap-2 bg-transparent hover:bg-gray-800 text-gray-200 border border-gray-600 text-sm font-semibold px-5 py-2.5 rounded-md transition">
+                           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                           +88 01845 - 887 333
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Highlight Stat Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4">
+                <div class="bg-brand-card p-6 rounded-xl border border-gray-700/60 shadow-md">
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-blue mb-1">16+ years</h2>
+                    <p class="text-xs text-gray-300 font-medium leading-snug">incl. technical support at Islami Bank Bangladesh PLC</p>
+                </div>
+                <div class="bg-brand-card p-6 rounded-xl border border-gray-700/60 shadow-md">
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-blue mb-1">1,500</h2>
+                    <p class="text-xs text-gray-300 font-medium leading-snug">workstations supported on a Windows Server 2003 domain</p>
+                </div>
+                <div class="bg-brand-card p-6 rounded-xl border border-gray-700/60 shadow-md">
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-blue mb-1">CCNA - MCSA</h2>
+                    <p class="text-xs text-gray-300 font-medium leading-snug">networking and systems certifications</p>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- MAIN BODY CONTENT (LIGHT THEME) -->
+    <main class="max-w-6xl mx-auto px-4 sm:px-8 lg:px-16 py-12 space-y-16">
+
+        <!-- 1. ABOUT SECTION -->
+        <section id="about" class="scroll-mt-8">
+            <span class="text-xs font-bold tracking-widest text-brand-blue uppercase block mb-1">ABOUT</span>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 mb-6">Professional summary</h2>
+            <div class="bg-white p-6 sm:p-8 rounded-xl border border-brand-cardBorder shadow-sm leading-relaxed text-gray-600 text-sm sm:text-base space-y-4">
+                <p>
+                    IT professional with extensive experience in technical support, network administration, Windows Server management, and IT infrastructure support. Experienced in troubleshooting LAN connectivity, configuring network devices, maintaining computer systems, supporting printers and scanners, and monitoring ATM infrastructure.
+                </p>
+                <p>
+                    Previously worked in the banking sector, providing technical support for head-office and branch operations. Holds a B.Sc. in Computer Science and Engineering, with additional training in networking, server administration, and IT security. Seeking an IT Support Specialist, Network Support Technician, or Technical Support position where technical expertise and practical troubleshooting experience can contribute to reliable IT operations.
+                </p>
+            </div>
+        </section>
+
+        <!-- 2. EXPERIENCE SECTION -->
+        <section id="experience" class="scroll-mt-8">
+            <span class="text-xs font-bold tracking-widest text-brand-blue uppercase block mb-1">EXPERIENCE</span>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 mb-6">Where I have worked</h2>
+
+            <div class="space-y-6">
+                <!-- Job 1 -->
+                <div class="bg-white p-6 sm:p-8 rounded-xl border border-brand-cardBorder shadow-sm hover:shadow-md transition">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+                        <div>
+                            <h3 class="text-lg font-bold text-gray-900">Video Editing Specialist</h3>
+                            <p class="text-xs sm:text-sm font-semibold text-gray-500">Freelance / Upwork • Dhaka, Bangladesh</p>
+                        </div>
+                        <span class="text-xs font-bold text-brand-blue bg-sky-50 border border-sky-200 px-3 py-1 rounded-full w-fit">
+                            April 2022 – Present
+                        </span>
+                    </div>
+                    <ul class="space-y-2 text-xs sm:text-sm text-gray-600">
+                        <li class="flex items-start gap-2">
+                            <span class="w-1.5 h-1.5 rounded-none bg-brand-blue mt-2 flex-shrink-0"></span>
+                            <span>Provide video editing services for projects obtained through freelancing platforms.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="w-1.5 h-1.5 rounded-none bg-brand-blue mt-2 flex-shrink-0"></span>
+                            <span>Edit and organize video content according to project requirements.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="w-1.5 h-1.5 rounded-none bg-brand-blue mt-2 flex-shrink-0"></span>
+                            <span>Apply technical and creative skills to deliver video projects.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Job 2 -->
+                <div class="bg-white p-6 sm:p-8 rounded-xl border border-brand-cardBorder shadow-sm hover:shadow-md transition">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+                        <div>
+                            <h3 class="text-lg font-bold text-gray-900">Officer – IT Technical Support</h3>
+                            <p class="text-xs sm:text-sm font-semibold text-gray-500">Islami Bank Bangladesh PLC • Dhaka, Bangladesh</p>
+                        </div>
+                        <span class="text-xs font-bold text-brand-blue bg-sky-50 border border-sky-200 px-3 py-1 rounded-full w-fit">
+                            October 2006 – March 2022
+                        </span>
+                    </div>
+                    <ul class="space-y-2 text-xs sm:text-sm text-gray-600">
+                        <li class="flex items-start gap-2">
+                            <span class="w-1.5 h-1.5 rounded-none bg-brand-blue mt-2 flex-shrink-0"></span>
+                            <span>Provided IT support and administered the head office network, supporting 1500 workstations on a Windows Server 2003 domain, and managed and maintained branch network connectivity.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="w-1.5 h-1.5 rounded-none bg-brand-blue mt-2 flex-shrink-0"></span>
+                            <span>Managed Windows Server, domain controllers, and LAN infrastructure.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="w-1.5 h-1.5 rounded-none bg-brand-blue mt-2 flex-shrink-0"></span>
+                            <span>Troubleshot computer, printer, scanner, and network connectivity issues.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="w-1.5 h-1.5 rounded-none bg-brand-blue mt-2 flex-shrink-0"></span>
+                            <span>Configured and maintained HP, Dell, and IBM servers, DAS, and Exchange Server.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="w-1.5 h-1.5 rounded-none bg-brand-blue mt-2 flex-shrink-0"></span>
+                            <span>Configured and supported Cisco routers and switches.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="w-1.5 h-1.5 rounded-none bg-brand-blue mt-2 flex-shrink-0"></span>
+                            <span>Monitored ATM operations and supported Diebold and NCR ATM systems.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="w-1.5 h-1.5 rounded-none bg-brand-blue mt-2 flex-shrink-0"></span>
+                            <span>Maintained reliable IT infrastructure and supported business continuity.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Job 3 -->
+                <div class="bg-white p-6 sm:p-8 rounded-xl border border-brand-cardBorder shadow-sm hover:shadow-md transition">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+                        <div>
+                            <h3 class="text-lg font-bold text-gray-900">Technical Support Engineer</h3>
+                            <p class="text-xs sm:text-sm font-semibold text-gray-500">eGeneration Limited • Dhaka, Bangladesh</p>
+                        </div>
+                        <span class="text-xs font-bold text-brand-blue bg-sky-50 border border-sky-200 px-3 py-1 rounded-full w-fit">
+                            January 2005 – October 2006
+                        </span>
+                    </div>
+                    <ul class="space-y-2 text-xs sm:text-sm text-gray-600">
+                        <li class="flex items-start gap-2">
+                            <span class="w-1.5 h-1.5 rounded-none bg-brand-blue mt-2 flex-shrink-0"></span>
+                            <span>Administered Windows Server 2003 domain controller environments.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="w-1.5 h-1.5 rounded-none bg-brand-blue mt-2 flex-shrink-0"></span>
+                            <span>Supported a network environment consisting of approximately 30 Windows XP workstations.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="w-1.5 h-1.5 rounded-none bg-brand-blue mt-2 flex-shrink-0"></span>
+                            <span>Assisted with computer systems administration and technical troubleshooting.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="w-1.5 h-1.5 rounded-none bg-brand-blue mt-2 flex-shrink-0"></span>
+                            <span>Supported workstation connectivity and day-to-day IT operations.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Job 4 -->
+                <div class="bg-white p-6 sm:p-8 rounded-xl border border-brand-cardBorder shadow-sm hover:shadow-md transition">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+                        <div>
+                            <h3 class="text-lg font-bold text-gray-900">Commercial Officer</h3>
+                            <p class="text-xs sm:text-sm font-semibold text-gray-500">Power & Pathan (Pvt.) Ltd. • Dhaka, Bangladesh</p>
+                        </div>
+                        <span class="text-xs font-bold text-brand-blue bg-sky-50 border border-sky-200 px-3 py-1 rounded-full w-fit">
+                            January 2002 – January 2005
+                        </span>
+                    </div>
+                    <ul class="space-y-2 text-xs sm:text-sm text-gray-600">
+                        <li class="flex items-start gap-2">
+                            <span class="w-1.5 h-1.5 rounded-none bg-brand-blue mt-2 flex-shrink-0"></span>
+                            <span>Coordinated with banks to facilitate the opening and processing of Letters of Credit (L/C) for import activities.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="w-1.5 h-1.5 rounded-none bg-brand-blue mt-2 flex-shrink-0"></span>
+                            <span>Supported international business transactions and import-related banking documentation.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="w-1.5 h-1.5 rounded-none bg-brand-blue mt-2 flex-shrink-0"></span>
+                            <span>Assisted with commercial coordination and related business operations.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SKILLS SECTION -->
+        <section id="skills" class="scroll-mt-8">
+            <span class="text-xs font-bold tracking-widest text-brand-blue uppercase block mb-1">SKILLS</span>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 mb-6">Core competencies and tools</h2>
+
+            <!-- Skill Badges -->
+            <div class="flex flex-wrap gap-2 sm:gap-3 mb-8">
+                <span class="bg-white border border-gray-300 text-gray-700 text-xs sm:text-sm font-medium px-4 py-2 rounded-full shadow-sm">
+                    IT Support and Technical Troubleshooting
+                </span>
+                <span class="bg-white border border-gray-300 text-gray-700 text-xs sm:text-sm font-medium px-4 py-2 rounded-full shadow-sm">
+                    Network Administration and LAN Configuration
+                </span>
+                <span class="bg-white border border-gray-300 text-gray-700 text-xs sm:text-sm font-medium px-4 py-2 rounded-full shadow-sm">
+                    Windows Server Administration
+                </span>
+                <span class="bg-white border border-gray-300 text-gray-700 text-xs sm:text-sm font-medium px-4 py-2 rounded-full shadow-sm">
+                    Computer Systems and Workstation Support
+                </span>
+                <span class="bg-white border border-gray-300 text-gray-700 text-xs sm:text-sm font-medium px-4 py-2 rounded-full shadow-sm">
+                    Cisco Router and Switch Configuration
+                </span>
+                <span class="bg-white border border-gray-300 text-gray-700 text-xs sm:text-sm font-medium px-4 py-2 rounded-full shadow-sm">
+                    Network Infrastructure Maintenance
+                </span>
+                <span class="bg-white border border-gray-300 text-gray-700 text-xs sm:text-sm font-medium px-4 py-2 rounded-full shadow-sm">
+                    IT Hardware and Peripheral Support
+                </span>
+                <span class="bg-white border border-gray-300 text-gray-700 text-xs sm:text-sm font-medium px-4 py-2 rounded-full shadow-sm">
+                    Network Connectivity and Problem Resolution
+                </span>
+                <span class="bg-white border border-gray-300 text-gray-700 text-xs sm:text-sm font-medium px-4 py-2 rounded-full shadow-sm">
+                    IT Security Standards Awareness
+                </span>
+                <span class="bg-white border border-gray-300 text-gray-700 text-xs sm:text-sm font-medium px-4 py-2 rounded-full shadow-sm">
+                    Technical Problem-Solving
+                </span>
+            </div>
+
+            <!-- Dark Sub-Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-brand-card text-white p-5 rounded-xl border border-gray-700">
+                    <span class="text-[10px] font-bold tracking-widest text-brand-blue uppercase block mb-1">OPERATING SYSTEMS</span>
+                    <p class="text-xs sm:text-sm text-gray-300 font-medium">Windows Server 2000, Windows Server 2003, Windows XP</p>
+                </div>
+                <div class="bg-brand-card text-white p-5 rounded-xl border border-gray-700">
+                    <span class="text-[10px] font-bold tracking-widest text-brand-blue uppercase block mb-1">NETWORKING</span>
+                    <p class="text-xs sm:text-sm text-gray-300 font-medium">LAN Administration, Cisco Routers and Switches, Network Troubleshooting</p>
+                </div>
+                <div class="bg-brand-card text-white p-5 rounded-xl border border-gray-700">
+                    <span class="text-[10px] font-bold tracking-widest text-brand-blue uppercase block mb-1">SERVER ADMINISTRATION</span>
+                    <p class="text-xs sm:text-sm text-gray-300 font-medium">Domain Controllers, DNS, Exchange Server</p>
+                </div>
+                <div class="bg-brand-card text-white p-5 rounded-xl border border-gray-700">
+                    <span class="text-[10px] font-bold tracking-widest text-brand-blue uppercase block mb-1">IT INFRASTRUCTURE</span>
+                    <p class="text-xs sm:text-sm text-gray-300 font-medium">HP, Dell and IBM Servers; Printers and Scanners</p>
+                </div>
+                <div class="bg-brand-card text-white p-5 rounded-xl border border-gray-700">
+                    <span class="text-[10px] font-bold tracking-widest text-brand-blue uppercase block mb-1">ATM SYSTEMS</span>
+                    <p class="text-xs sm:text-sm text-gray-300 font-medium">ATM Monitoring, Diebold and NCR ATM Setup Support</p>
+                </div>
+                <div class="bg-brand-card text-white p-5 rounded-xl border border-gray-700">
+                    <span class="text-[10px] font-bold tracking-widest text-brand-blue uppercase block mb-1">ADDITIONAL SKILLS</span>
+                    <p class="text-xs sm:text-sm text-gray-300 font-medium">Video Editing, Adobe Premiere Pro, Adobe After Effects, CapCut</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. EDUCATION SECTION -->
+        <section id="education" class="scroll-mt-8">
+            <span class="text-xs font-bold tracking-widest text-brand-blue uppercase block mb-1">EDUCATION</span>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 mb-6">Academic background</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Degree 1 -->
+                <div class="bg-white p-6 rounded-xl border border-brand-cardBorder shadow-sm flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-bold text-brand-blue mb-1 block">2010</span>
+                        <h3 class="text-base font-bold text-gray-900 mb-2">Bachelor of Science in Computer Science and Engineering</h3>
+                        <p class="text-xs sm:text-sm text-gray-600">Atish Dipankar University of Science and Technology, Bangladesh</p>
+                    </div>
+                    <span class="text-xs font-semibold text-gray-500 mt-4 block">CGPA: 3.16 (out of 4.00)</span>
+                </div>
+
+                <!-- Degree 2 -->
+                <div class="bg-white p-6 rounded-xl border border-brand-cardBorder shadow-sm flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-bold text-brand-blue mb-1 block">1997</span>
+                        <h3 class="text-base font-bold text-gray-900 mb-2">Higher Secondary Certificate</h3>
+                        <p class="text-xs sm:text-sm text-gray-600">Feni Government College, Bangladesh</p>
+                    </div>
+                    <span class="text-xs font-semibold text-gray-500 mt-4 block">Result: 2nd Division</span>
+                </div>
+
+                <!-- Degree 3 -->
+                <div class="bg-white p-6 rounded-xl border border-brand-cardBorder shadow-sm flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-bold text-brand-blue mb-1 block">1995</span>
+                        <h3 class="text-base font-bold text-gray-900 mb-2">Secondary School Certificate (S.S.C.)</h3>
+                        <p class="text-xs sm:text-sm text-gray-600">Mishinjora High School, Bangladesh</p>
+                    </div>
+                    <span class="text-xs font-semibold text-gray-500 mt-4 block">Result: 1st Division</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. CERTIFICATIONS AND PROFESSIONAL TRAINING SECTION -->
+        <section class="scroll-mt-8">
+            <h2 class="text-xl sm:text-2xl font-extrabold text-gray-900 mb-6">Certifications and professional training</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-white p-5 rounded-xl border border-brand-cardBorder shadow-sm">
+                    <h3 class="text-sm font-bold text-gray-900">CCNA – Cisco Certified Network Associate</h3>
+                    <p class="text-xs text-gray-500 mt-1">silicon valley • June 2009</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-brand-cardBorder shadow-sm">
+                    <h3 class="text-sm font-bold text-gray-900">MCSA – Microsoft Certified Systems Administrator</h3>
+                    <p class="text-xs text-gray-500 mt-1">Microsoft Corporation • March 2008</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-brand-cardBorder shadow-sm">
+                    <h3 class="text-sm font-bold text-gray-900">Diploma in Network System Administration</h3>
+                    <p class="text-xs text-gray-500 mt-1">ma tammim Career Education</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-brand-cardBorder shadow-sm">
+                    <h3 class="text-sm font-bold text-gray-900">Professional video editing</h3>
+                    <p class="text-xs text-gray-500 mt-1">Creative IT Institute • August 2023</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-brand-cardBorder shadow-sm">
+                    <h3 class="text-sm font-bold text-gray-900">PCI DSS Training</h3>
+                    <p class="text-xs text-gray-500 mt-1">Innovare Corporation • November 2015</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-brand-cardBorder shadow-sm">
+                    <h3 class="text-sm font-bold text-gray-900">PCI DSS Training</h3>
+                    <p class="text-xs text-gray-500 mt-1">Longamara Toshiba Shizuj (Shanghai) (1050) • August 2015</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-brand-cardBorder shadow-sm">
+                    <h3 class="text-sm font-bold text-gray-900">ATM Switch (SmartVista) Migration, Implementation & Operation</h3>
+                    <p class="text-xs text-gray-500 mt-1">Islami Bank Research & Training Institute • November 2017</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-brand-cardBorder shadow-sm">
+                    <h3 class="text-sm font-bold text-gray-900">Anti-Money Laundering Activities</h3>
+                    <p class="text-xs text-gray-500 mt-1">Islami Bank Research & Training Institute • October 2018</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-brand-cardBorder shadow-sm">
+                    <h3 class="text-sm font-bold text-gray-900">Foundation Course – Phase I</h3>
+                    <p class="text-xs text-gray-500 mt-1">Islami Bank Research & Training Institute • December 2006</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-brand-cardBorder shadow-sm">
+                    <h3 class="text-sm font-bold text-gray-900">Foundation Course – Phase II</h3>
+                    <p class="text-xs text-gray-500 mt-1">Islami Bank Research & Training Institute • October 2008</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. CONTACT SECTION (DARK CARD) -->
+        <section id="contact" class="scroll-mt-8 pt-4">
+            <div class="bg-brand-dark text-white p-8 sm:p-10 rounded-2xl shadow-xl border border-gray-800">
+                <span class="text-xs font-bold tracking-widest text-brand-blue uppercase block mb-2">CONTACT</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold mb-8">Let us talk about your IT needs</h2>
+
+                <div class="flex flex-wrap items-center gap-4 mb-8">
+                    <a href="mailto:anowar.feniusp@gmail.com" 
+                       class="bg-brand-blue hover:bg-sky-500 text-white text-xs sm:text-sm font-semibold px-6 py-3 rounded-md transition inline-block">
+                        anowar.feniusp@gmail.com
+                    </a>
+                    <a href="tel:+8801845887333" 
+                       class="bg-transparent hover:bg-gray-800 text-gray-200 border border-gray-600 text-xs sm:text-sm font-semibold px-6 py-3 rounded-md transition inline-block">
+                        +88 01845 - 887 333
+                    </a>
+                </div>
+
+                <p class="text-xs text-gray-400">
+                    Vill - Mishinjora, PO - Mishinjora, Thana - Chhagalnaiya, Dist - Feni
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="text-center text-xs text-gray-500 py-6 border-t border-gray-200">
+        <p>&copy; Md Anowar Hossain. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
